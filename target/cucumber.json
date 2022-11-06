@@ -1,0 +1,358 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8547240700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the \"https://qa.imoving.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://qa.imoving.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "IMovingSteps.user_is_on_the(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Verify Moving Journey Button works",
+        "description": "",
+        "id": "confirmation-page-functionality;verify-moving-journey-button-works",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91502800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on confirmation page",
+            "match": {
+              "location": "IMovingSteps.user_is_on_confirmation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should navigate to moving journey button",
+            "match": {
+              "location": "IMovingSteps.user_should_navigate_to_moving_journey_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on moving journey button",
+            "match": {
+              "location": "IMovingSteps.user_clicks_on_moving_journey_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "pick up address should appear underneath",
+            "match": {
+              "location": "IMovingSteps.pick_up_address_should_appear_underneath()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 790046800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the \"https://qa.imoving.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://qa.imoving.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "IMovingSteps.user_is_on_the(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify Show on Map button in Moving Journey section works",
+        "description": "",
+        "id": "confirmation-page-functionality;verify-show-on-map-button-in-moving-journey-section-works",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70590800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on confirmation page",
+            "match": {
+              "location": "IMovingSteps.user_is_on_confirmation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should navigate to moving journey button",
+            "match": {
+              "location": "IMovingSteps.user_should_navigate_to_moving_journey_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on moving journey button",
+            "match": {
+              "location": "IMovingSteps.user_clicks_on_moving_journey_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks show on map button",
+            "match": {
+              "location": "IMovingSteps.user_clicks_show_on_map_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Map should appear underneath",
+            "match": {
+              "location": "IMovingSteps.map_should_appear_underneath()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 310335500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the \"https://qa.imoving.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://qa.imoving.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "IMovingSteps.user_is_on_the(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify Addresses Restrictions button works",
+        "description": "",
+        "id": "confirmation-page-functionality;verify-addresses-restrictions-button-works",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 69373900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on confirmation page",
+            "match": {
+              "location": "IMovingSteps.user_is_on_confirmation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should navigate to addresses restrictions button",
+            "match": {
+              "location": "IMovingSteps.user_should_navigate_to_addresses_restrictions_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on addresses restrictions button",
+            "match": {
+              "location": "IMovingSteps.user_clicks_on_addresses_restrictions_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Information chart should appear underneath",
+            "match": {
+              "location": "IMovingSteps.information_chart_should_appear_underneath()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 311172000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the \"https://qa.imoving.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://qa.imoving.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "IMovingSteps.user_is_on_the(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Verify Inventory-Items button works",
+        "description": "",
+        "id": "confirmation-page-functionality;verify-inventory-items-button-works",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79032800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user is on confirmation page",
+            "match": {
+              "location": "IMovingSteps.user_is_on_confirmation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should navigate to inventory items button",
+            "match": {
+              "location": "IMovingSteps.user_should_navigate_to_inventory_items_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on inventory items button",
+            "match": {
+              "location": "IMovingSteps.user_clicks_on_inventory_items_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Confirmation Page functionality",
+    "description": "",
+    "id": "confirmation-page-functionality",
+    "keyword": "Feature",
+    "uri": "iMovingTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@iMoving"
+      }
+    ]
+  }
+]

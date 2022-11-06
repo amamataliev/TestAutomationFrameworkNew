@@ -2,7 +2,6 @@ package com.digital_nomads.driverFactory;
 
 import com.digital_nomads.dataProvider.ConfigReader;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
 public class Driver {
 
